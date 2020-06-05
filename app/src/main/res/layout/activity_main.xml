@@ -45,8 +45,8 @@
         android:id="@+id/buttonBMI" />
 
     <TextView
-        android:layout_width="378dp"
-        android:layout_height="47dp"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
         android:text="Index is"
         android:id="@+id/tv1"
         android:textSize="30dp" />
