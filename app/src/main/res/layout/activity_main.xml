@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="sa.edu.yu.bmiapp.MainActivity">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et1"
+        android:hint="Weight" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Height"
+        android:id="@+id/et2" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Metric (KG/CM)"
+            android:id="@+id/rb1"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Imperial (US, Pound, feet)"
+            android:id="@+id/rb2"
+            android:checked="false" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show BMI"
+        android:id="@+id/buttonBMI" />
+
+    <TextView
+        android:layout_width="378dp"
+        android:layout_height="47dp"
+        android:text="Index is"
+        android:id="@+id/tv1"
+        android:textSize="30dp" />
+
+</LinearLayout>
